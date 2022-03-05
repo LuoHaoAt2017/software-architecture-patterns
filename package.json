@@ -1,0 +1,24 @@
+{
+  "name": "software-architecture-patterns",
+  "version": "1.0.0",
+  "description": "软件架构模式",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git add . && git-cz",
+    "push": "npm version patch && git pull && git push"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuoHaoAt2017/software-architecture-patterns.git"
+  },
+  "author": "LuoHao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuoHaoAt2017/software-architecture-patterns/issues"
+  },
+  "homepage": "https://github.com/LuoHaoAt2017/software-architecture-patterns#readme"
+}
